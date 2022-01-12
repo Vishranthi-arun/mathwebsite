@@ -85,6 +85,17 @@ Publish the website in the given URL.
       margin-top: 5px;
       margin-bottom: 5px;
     }
+    .footer{
+      text-align: center;
+      font-size:X-large;
+      width: 100%;
+      height: 40px;
+      background-color: #c0d5d6;
+      text-align: center;
+      padding-top: 10px;
+      margin: 0px 0px 0px 0px;
+      color: #000000;
+    }
     </style>
   </head>
   <body>
@@ -186,19 +197,17 @@ Publish the website in the given URL.
             oval=0.5*lval*mval*nval;
             otext.value=""+oval;
           });
-      </script>      
+      </script> 
+    <div class="footer">
+      Copyright &#169; 2021 Mathematical Calculations, Developed by Vishranthi A.
+    </div>     
   </body>
 </html>
 ~~~
 
 ## OUTPUT:
 
-1)WITHOUT ERROR :
-![OUTPUT](./img/math-calculation01.png)
-![OUTPUT](./img/math-calculation02.png)
-
-2)WITH ERROR :
-![OUTPUT](./img/math-calculation-error.png)
+![OUTPUT](./img/webtech-math01.jpg)
 
 ## Result:
 
