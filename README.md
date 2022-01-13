@@ -142,6 +142,11 @@ Publish the website in the given URL.
               bval=parseInt(btext.value);
               cval=aval*bval;
               ctext.value=""+cval;
+              res=ctext.value;
+              if (res=="NaN")
+              {
+                alert("Please Enter Integers");
+              }
           });
       </script>
       <div class="content2">
@@ -196,6 +201,11 @@ Publish the website in the given URL.
             nval=parseInt(ntext.value);
             oval=0.5*lval*mval*nval;
             otext.value=""+oval;
+            res1=otext.value
+            if (res1=="NaN")
+            {
+              alert("Please Enter Integers");
+            }
           });
       </script> 
     <div class="footer">
